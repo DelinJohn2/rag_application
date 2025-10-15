@@ -1,0 +1,147 @@
+2025-10-15 09:57:40 [ERROR] faiss_maker: Failed to create FAISS index: Error in faiss::FileIOReader::FileIOReader(const char*) at /project/faiss/faiss/impl/io.cpp:67: Error: 'f' failed: could not open faiss_indexes/index.faiss for reading: No such file or directory
+2025-10-15 09:57:52 [ERROR] faiss_maker: Failed to create FAISS index: Error in faiss::FileIOReader::FileIOReader(const char*) at /project/faiss/faiss/impl/io.cpp:67: Error: 'f' failed: could not open faiss_indexes/index.faiss for reading: No such file or directory
+2025-10-15 09:59:46 [ERROR] faiss_maker: Failed to create FAISS index: Error in faiss::FileIOReader::FileIOReader(const char*) at /project/faiss/faiss/impl/io.cpp:67: Error: 'f' failed: could not open faiss_indexes/index.faiss for reading: No such file or directory
+2025-10-15 10:12:20 [ERROR] faiss_maker: Failed to create FAISS index: Error in faiss::FileIOReader::FileIOReader(const char*) at /project/faiss/faiss/impl/io.cpp:67: Error: 'f' failed: could not open faiss_indexes/index.faiss for reading: No such file or directory
+2025-10-15 10:12:58 [INFO] faiss_maker: Created new FAISS index.
+2025-10-15 10:13:02 [INFO] faiss_maker: Added batch 1 containing 100 documents
+2025-10-15 10:13:04 [INFO] faiss_maker: Added batch 2 containing 23 documents
+2025-10-15 10:13:04 [INFO] faiss_maker: FAISS index saved as: faiss_indexes
+2025-10-15 10:20:49 [INFO] faiss_maker: Created new FAISS index.
+2025-10-15 10:20:52 [INFO] faiss_maker: Added batch 1 containing 100 documents
+2025-10-15 10:20:55 [INFO] faiss_maker: Added batch 2 containing 23 documents
+2025-10-15 10:20:55 [INFO] faiss_maker: FAISS index saved as: faiss_indexes
+2025-10-15 10:21:37 [INFO] faiss_maker: Loaded existing FAISS index.
+2025-10-15 10:21:41 [INFO] faiss_maker: Added batch 1 containing 100 documents
+2025-10-15 10:21:44 [INFO] faiss_maker: Added batch 2 containing 100 documents
+2025-10-15 10:21:48 [INFO] faiss_maker: Added batch 3 containing 100 documents
+2025-10-15 10:21:53 [INFO] faiss_maker: Added batch 4 containing 100 documents
+2025-10-15 10:21:58 [INFO] faiss_maker: Added batch 5 containing 100 documents
+2025-10-15 10:22:01 [INFO] faiss_maker: Added batch 6 containing 100 documents
+2025-10-15 10:22:05 [INFO] faiss_maker: Added batch 7 containing 100 documents
+2025-10-15 10:22:07 [INFO] faiss_maker: Added batch 8 containing 38 documents
+2025-10-15 10:22:07 [INFO] faiss_maker: FAISS index saved as: faiss_indexes
+2025-10-15 10:51:51 [INFO] faiss_maker: Loaded existing FAISS index.
+2025-10-15 10:51:53 [INFO] faiss_maker: Added batch 1 containing 100 documents
+2025-10-15 10:51:55 [INFO] faiss_maker: Added batch 2 containing 100 documents
+2025-10-15 10:51:58 [INFO] faiss_maker: Added batch 3 containing 100 documents
+2025-10-15 10:52:00 [INFO] faiss_maker: Added batch 4 containing 100 documents
+2025-10-15 10:52:03 [INFO] faiss_maker: Added batch 5 containing 100 documents
+2025-10-15 10:52:05 [INFO] faiss_maker: Added batch 6 containing 100 documents
+2025-10-15 10:52:08 [INFO] faiss_maker: Added batch 7 containing 100 documents
+2025-10-15 10:52:09 [INFO] faiss_maker: Added batch 8 containing 100 documents
+2025-10-15 10:52:14 [INFO] faiss_maker: Added batch 9 containing 100 documents
+2025-10-15 10:52:19 [INFO] faiss_maker: Added batch 10 containing 100 documents
+2025-10-15 10:52:24 [INFO] faiss_maker: Added batch 11 containing 100 documents
+2025-10-15 10:52:26 [INFO] faiss_maker: Added batch 12 containing 100 documents
+2025-10-15 10:52:29 [INFO] faiss_maker: Added batch 13 containing 100 documents
+2025-10-15 10:52:31 [INFO] faiss_maker: Added batch 14 containing 100 documents
+2025-10-15 10:52:33 [INFO] faiss_maker: Added batch 15 containing 100 documents
+2025-10-15 10:52:36 [INFO] faiss_maker: Added batch 16 containing 100 documents
+2025-10-15 10:52:38 [INFO] faiss_maker: Added batch 17 containing 100 documents
+2025-10-15 10:52:41 [INFO] faiss_maker: Added batch 18 containing 100 documents
+2025-10-15 10:52:44 [INFO] faiss_maker: Added batch 19 containing 100 documents
+2025-10-15 10:52:46 [INFO] faiss_maker: Added batch 20 containing 100 documents
+2025-10-15 10:52:49 [INFO] faiss_maker: Added batch 21 containing 100 documents
+2025-10-15 10:52:51 [INFO] faiss_maker: Added batch 22 containing 100 documents
+2025-10-15 10:52:53 [INFO] faiss_maker: Added batch 23 containing 51 documents
+2025-10-15 10:52:53 [INFO] faiss_maker: FAISS index saved as: faiss_indexes
+2025-10-15 12:22:57 [INFO] faiss_maker: Created new FAISS index.
+2025-10-15 12:23:00 [INFO] faiss_maker: Added batch 1 containing 100 documents
+2025-10-15 12:23:02 [INFO] faiss_maker: Added batch 2 containing 100 documents
+2025-10-15 12:23:05 [INFO] faiss_maker: Added batch 3 containing 100 documents
+2025-10-15 12:23:07 [INFO] faiss_maker: Added batch 4 containing 100 documents
+2025-10-15 12:23:10 [INFO] faiss_maker: Added batch 5 containing 100 documents
+2025-10-15 12:23:12 [INFO] faiss_maker: Added batch 6 containing 100 documents
+2025-10-15 12:23:15 [INFO] faiss_maker: Added batch 7 containing 100 documents
+2025-10-15 12:23:18 [INFO] faiss_maker: Added batch 8 containing 100 documents
+2025-10-15 12:23:23 [INFO] faiss_maker: Added batch 9 containing 100 documents
+2025-10-15 12:23:28 [INFO] faiss_maker: Added batch 10 containing 100 documents
+2025-10-15 12:23:33 [INFO] faiss_maker: Added batch 11 containing 100 documents
+2025-10-15 12:23:36 [INFO] faiss_maker: Added batch 12 containing 100 documents
+2025-10-15 12:23:39 [INFO] faiss_maker: Added batch 13 containing 100 documents
+2025-10-15 12:23:42 [INFO] faiss_maker: Added batch 14 containing 100 documents
+2025-10-15 12:23:44 [INFO] faiss_maker: Added batch 15 containing 100 documents
+2025-10-15 12:23:46 [INFO] faiss_maker: Added batch 16 containing 100 documents
+2025-10-15 12:23:48 [INFO] faiss_maker: Added batch 17 containing 100 documents
+2025-10-15 12:23:51 [INFO] faiss_maker: Added batch 18 containing 100 documents
+2025-10-15 12:23:54 [INFO] faiss_maker: Added batch 19 containing 100 documents
+2025-10-15 12:23:56 [INFO] faiss_maker: Added batch 20 containing 100 documents
+2025-10-15 12:23:58 [INFO] faiss_maker: Added batch 21 containing 100 documents
+2025-10-15 12:24:01 [INFO] faiss_maker: Added batch 22 containing 100 documents
+2025-10-15 12:24:02 [INFO] faiss_maker: Added batch 23 containing 51 documents
+2025-10-15 12:24:02 [INFO] faiss_maker: FAISS index saved as: faiss_indexes
+2025-10-15 12:31:27 [INFO] faiss_maker: Created new FAISS index.
+2025-10-15 12:31:31 [INFO] faiss_maker: Added batch 1 containing 100 documents
+2025-10-15 12:31:34 [INFO] faiss_maker: Added batch 2 containing 23 documents
+2025-10-15 12:31:34 [INFO] faiss_maker: FAISS index saved as: faiss_indexes
+2025-10-15 12:32:14 [INFO] faiss_maker: Loaded existing FAISS index.
+2025-10-15 12:32:17 [INFO] faiss_maker: Added batch 1 containing 100 documents
+2025-10-15 12:32:20 [INFO] faiss_maker: Added batch 2 containing 100 documents
+2025-10-15 12:32:22 [INFO] faiss_maker: Added batch 3 containing 100 documents
+2025-10-15 12:32:25 [INFO] faiss_maker: Added batch 4 containing 100 documents
+2025-10-15 12:32:29 [INFO] faiss_maker: Added batch 5 containing 100 documents
+2025-10-15 12:32:32 [INFO] faiss_maker: Added batch 6 containing 100 documents
+2025-10-15 12:32:36 [INFO] faiss_maker: Added batch 7 containing 100 documents
+2025-10-15 12:32:37 [INFO] faiss_maker: Added batch 8 containing 38 documents
+2025-10-15 12:32:37 [INFO] faiss_maker: FAISS index saved as: faiss_indexes
+2025-10-15 12:34:46 [INFO] faiss_maker: Loaded existing FAISS index.
+2025-10-15 12:34:49 [INFO] faiss_maker: Added batch 1 containing 100 documents
+2025-10-15 12:34:51 [INFO] faiss_maker: Added batch 2 containing 100 documents
+2025-10-15 12:34:53 [INFO] faiss_maker: Added batch 3 containing 100 documents
+2025-10-15 12:34:57 [INFO] faiss_maker: Added batch 4 containing 100 documents
+2025-10-15 12:35:00 [INFO] faiss_maker: Added batch 5 containing 100 documents
+2025-10-15 12:35:04 [INFO] faiss_maker: Added batch 6 containing 100 documents
+2025-10-15 12:35:08 [INFO] faiss_maker: Added batch 7 containing 100 documents
+2025-10-15 12:35:11 [INFO] faiss_maker: Added batch 8 containing 100 documents
+2025-10-15 12:35:15 [INFO] faiss_maker: Added batch 9 containing 100 documents
+2025-10-15 12:35:20 [INFO] faiss_maker: Added batch 10 containing 100 documents
+2025-10-15 12:35:25 [INFO] faiss_maker: Added batch 11 containing 100 documents
+2025-10-15 12:35:27 [INFO] faiss_maker: Added batch 12 containing 100 documents
+2025-10-15 12:35:28 [INFO] faiss_maker: Added batch 13 containing 100 documents
+2025-10-15 12:35:29 [INFO] faiss_maker: Added batch 14 containing 100 documents
+2025-10-15 12:35:30 [INFO] faiss_maker: Added batch 15 containing 100 documents
+2025-10-15 12:35:31 [INFO] faiss_maker: Added batch 16 containing 100 documents
+2025-10-15 12:35:33 [INFO] faiss_maker: Added batch 17 containing 100 documents
+2025-10-15 12:35:34 [INFO] faiss_maker: Added batch 18 containing 100 documents
+2025-10-15 12:35:35 [INFO] faiss_maker: Added batch 19 containing 100 documents
+2025-10-15 12:35:36 [INFO] faiss_maker: Added batch 20 containing 100 documents
+2025-10-15 12:35:38 [INFO] faiss_maker: Added batch 21 containing 100 documents
+2025-10-15 12:35:39 [INFO] faiss_maker: Added batch 22 containing 100 documents
+2025-10-15 12:35:40 [INFO] faiss_maker: Added batch 23 containing 51 documents
+2025-10-15 12:35:40 [INFO] faiss_maker: FAISS index saved as: faiss_indexes
+2025-10-15 13:06:48 [INFO] faiss_maker: Loaded existing FAISS index.
+2025-10-15 13:06:59 [INFO] faiss_maker: Added batch 1 containing 10 documents
+2025-10-15 13:06:59 [INFO] faiss_maker: FAISS index saved as: faiss_indexes
+2025-10-15 13:09:08 [INFO] faiss_maker: Loaded existing FAISS index.
+2025-10-15 13:09:10 [INFO] faiss_maker: Added batch 1 containing 5 documents
+2025-10-15 13:09:11 [INFO] faiss_maker: FAISS index saved as: faiss_indexes
+2025-10-15 13:10:23 [INFO] faiss_maker: Loaded existing FAISS index.
+2025-10-15 13:10:33 [INFO] faiss_maker: Added batch 1 containing 100 documents
+2025-10-15 13:10:38 [INFO] faiss_maker: Added batch 2 containing 48 documents
+2025-10-15 13:10:38 [INFO] faiss_maker: FAISS index saved as: faiss_indexes
+2025-10-15 13:11:04 [INFO] faiss_maker: Loaded existing FAISS index.
+2025-10-15 13:11:13 [INFO] faiss_maker: Added batch 1 containing 100 documents
+2025-10-15 13:11:18 [INFO] faiss_maker: Added batch 2 containing 48 documents
+2025-10-15 13:11:18 [INFO] faiss_maker: FAISS index saved as: faiss_indexes
+2025-10-15 13:12:30 [INFO] faiss_maker: Loaded existing FAISS index.
+2025-10-15 13:12:34 [INFO] faiss_maker: Added batch 1 containing 100 documents
+2025-10-15 13:12:36 [INFO] faiss_maker: Added batch 2 containing 100 documents
+2025-10-15 13:12:41 [INFO] faiss_maker: Added batch 3 containing 100 documents
+2025-10-15 13:12:48 [INFO] faiss_maker: Added batch 4 containing 61 documents
+2025-10-15 13:12:48 [INFO] faiss_maker: FAISS index saved as: faiss_indexes
+2025-10-15 13:13:22 [INFO] faiss_maker: Loaded existing FAISS index.
+2025-10-15 13:13:25 [INFO] faiss_maker: Added batch 1 containing 18 documents
+2025-10-15 13:13:25 [INFO] faiss_maker: FAISS index saved as: faiss_indexes
+2025-10-15 13:14:12 [INFO] faiss_maker: Loaded existing FAISS index.
+2025-10-15 13:14:13 [INFO] faiss_maker: Added batch 1 containing 10 documents
+2025-10-15 13:14:13 [INFO] faiss_maker: FAISS index saved as: faiss_indexes
+2025-10-15 13:14:34 [INFO] faiss_maker: Loaded existing FAISS index.
+2025-10-15 13:14:36 [INFO] faiss_maker: Added batch 1 containing 21 documents
+2025-10-15 13:14:36 [INFO] faiss_maker: FAISS index saved as: faiss_indexes
+2025-10-15 13:14:54 [INFO] faiss_maker: Loaded existing FAISS index.
+2025-10-15 13:14:57 [INFO] faiss_maker: Added batch 1 containing 100 documents
+2025-10-15 13:14:59 [INFO] faiss_maker: Added batch 2 containing 46 documents
+2025-10-15 13:14:59 [INFO] faiss_maker: FAISS index saved as: faiss_indexes
+2025-10-15 13:15:21 [INFO] faiss_maker: Loaded existing FAISS index.
+2025-10-15 13:15:23 [INFO] faiss_maker: Added batch 1 containing 9 documents
+2025-10-15 13:15:23 [INFO] faiss_maker: FAISS index saved as: faiss_indexes

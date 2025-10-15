@@ -1,0 +1,1 @@
+from .faiss_maker import load_or_create_faiss_index
