@@ -1,4 +1,4 @@
-from .bot import load_gpt_llm
+from llm.bot import load_gpt_llm
 from langgraph.checkpoint.memory import InMemorySaver
 from langgraph.graph import StateGraph, END
 from typing import TypedDict, Annotated
@@ -45,11 +45,11 @@ def retrieve_and_generate(state: ChatState):
     # Prepare messages for LLM (include history)
     llm_messages = [system_msg, context_msg] + messages
     
-    # Generate response
-    response = llm.invoke(llm_messages)
+
+    final_answer= llm.invoke(llm_messages)
     
     # Add sources to response
-    response_with_sources = f"{response.content}\n\n**Sources:** {', '.join(unique_sources)}"
+    response_with_sources = f"{final_answer.content}\n\n**Sources:** {', '.join(unique_sources)}"
     
     return {
         "messages": [AIMessage(content=response_with_sources)],
@@ -69,58 +69,16 @@ app = workflow.compile(checkpointer=memory)
 
 # Usage function
 def context_aware_chatbot(question, thread_id="default"):
-    """
-    Non-streaming version
-    """
-    result = app.invoke(
-        {"messages": [HumanMessage(content=question)]},
-        {"configurable": {"thread_id": thread_id}}
-    )
-    return result["messages"][-1].content
-
-# Streaming version
-def context_aware_chatbot_stream(question, thread_id="default"):
-    """
-    Streaming version - yields chunks
-    """
-    index_dir = "faiss_indexes"
-    vector_store = FAISS.load_local(index_dir, embeddings, allow_dangerous_deserialization=True)
-    docs = vector_store.similarity_search(question, k=3)
-    
-    context = "\n\n".join([doc.page_content for doc in docs])
-    sources = [doc.metadata.get('filename', 'Unknown') for doc in docs]
-    unique_sources = list(set(sources))
-    
-    # Get conversation history
     config = {"configurable": {"thread_id": thread_id}}
-    state = app.get_state(config)
-    history_messages = state.values.get("messages", []) if state.values else []
     
-    # Build prompt with history
-    system_msg = f"""You are to generate the relevant answer based on the context for the input question
-    
-Context:
-{context}"""
-    
-    messages = [SystemMessage(content=system_msg)] + history_messages + [HumanMessage(content=question)]
-    
-    # Stream response
-    full_response = ""
-    for chunk in llm.stream(messages):
-        full_response += chunk.content
-        yield chunk.content
-    
-    # Yield sources
-    sources_text = f"\n\n**Sources:** {', '.join(unique_sources)}"
-    yield sources_text
-    
-    # Save to memory after streaming
-    app.update_state(
+    # Use stream_mode="messages" for token-by-token streaming
+    for message_chunk, metadata in app.stream(
+        {"messages": [HumanMessage(content=question)]}, 
         config,
-        {
-            "messages": [
-                HumanMessage(content=question),
-                AIMessage(content=full_response + sources_text)
-            ]
-        }
-    )
+        stream_mode="messages"  # ✅ This enables token streaming
+    ):
+        # Only yield content chunks (skip empty ones)
+        if message_chunk.content:
+            yield message_chunk.content
+
+
